@@ -1,0 +1,19 @@
+{
+    "name": "gmbf/dhlservice",
+    "description": "DHL Service Integration for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Gmbf\\Dhlservice\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Gmbf\\Dhlservice\\DhlServiceProvider"
+        ]
+      }
+    }
+  }
+  
